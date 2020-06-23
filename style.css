@@ -1,0 +1,59 @@
+
+body {
+    height: 100%;
+    size: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    background-color: hsl(229, 57%, 11%);
+    background-image: url("./images/bg-desktop.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-size: 100%, 50%;
+    color: hsl(243, 100%, 93%);
+}
+
+
+.card-container{
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-card{
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px 100px 10px 10px;
+    width: 350px;
+    height: 200px;
+}
+
+.right-card{
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 15px 15px;
+    width: 540px;
+    height: 150px;
+    margin-left: 30px;
+}
+
+.remainder-bubble {
+    width: 180px;
+    height: 70px;
+    position: relative;
+    margin-top: -45px;
+    margin-left: 360px;
+    font-size: 2em;
+    background: #ffffff;
+    border-radius: 8px 8px 0 8px;
+}
+  
+.remainder-bubble::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: 0;
+    border-top: 8px solid #ffffff;
+    border-right: 8px solid #ffffff;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid transparent;
+  }
