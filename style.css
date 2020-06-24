@@ -28,6 +28,26 @@ body {
     height: 200px;
 }
 
+.logo{
+    margin-top: 40px;
+      margin-left: 40px;
+  }
+  
+  .button-icons{
+      margin-top: 30px;
+      margin-left: 40px;
+      display: flex;
+      
+  }
+  button {
+      margin-right: 15px;
+      height: 50px;
+      width: 50px;
+      border-radius: 10px;
+      border: none;
+      background-color: hsl(229, 57%, 11%);
+  }
+
 .right-card{
     background-color: hsl(228, 56%, 26%);
     border-radius: 15px 15px;
@@ -83,9 +103,10 @@ body {
   }
 
   .gb-meter{
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
     width: 450px;
-    height: 18px;
+    height: 16px;
     border-radius: 100px;
     background: hsl(229, 57%, 11%);
     position: relative;
@@ -93,7 +114,7 @@ body {
 
   .gb-bar{
     margin-top: 10px;
-    width: 380px;
+    width: 340px;
     height: 15px;
     border-radius: 100px;
     background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));;
@@ -101,31 +122,25 @@ body {
 
   .gb-bar::after {
     content: "";
-    width: 8px;
-    height: 8px;
+    width: 12px;
+    height: 12px;
     border-radius: 50px;
     background: #fff;
     position: absolute;
-    top: 2px;
-    right: 80px;
+    top: 1px;
+    right: 110px;
 }
 
-  .logo{
-    margin-top: 40px;
-      margin-left: 40px;
-  }
-  
-  .button-icons{
-      margin-top: 30px;
-      margin-left: 40px;
-      display: flex;
-      
-  }
-  button {
-      margin-right: 15px;
-      height: 50px;
-      width: 50px;
-      border-radius: 10px;
-      border: none;
-      background-color: hsl(229, 57%, 11%);
-  }
+.meter-range{
+    display: flex;
+    margin-top: 10px;
+}
+
+.meter-min{
+    margin-left: 40px;
+    margin-right: 100px
+}
+
+.meter-max{
+    margin-left: 260px;
+}
